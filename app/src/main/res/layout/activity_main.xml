@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.MainActivity">
+
+    <Button
+        android:id="@+id/showBooksButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/show_book_list"
+        android:layout_above="@id/scanBarcodeButton"
+        android:layout_centerHorizontal="true"
+        android:onClick="showBooksButtonClicked"/>
+
+    <Button
+        android:id="@+id/scanBarcodeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30dp"
+        android:onClick="scanBarcodeButtonClicked"
+        android:text="@string/scan_barcode" />
+
+    <Button
+        android:id="@+id/manuallyEnterIsbnButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/scanBarcodeButton"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:onClick="manuallyEnterIsbnButtonClicked"
+        android:text="@string/manually_enter_isbn" />
+
+</RelativeLayout>

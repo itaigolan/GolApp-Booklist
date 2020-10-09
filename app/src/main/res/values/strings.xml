@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">My Book List</string>
+    <string name="scan_barcode">Scan Barcode</string>
+    <string name="manually_enter_isbn">Manually Enter ISBN</string>
+    <string name="submit">Submit</string>
+    <string name="isbn">ISBN:</string>
+    <string name="show_book_list">Show Book List</string>
+    <string name="remove_book">Remove Book From List</string>
+    <string name="wrong_format">The entered number was not in the format of ISBN-10 or ISBN-13</string>
+    <string name="improper_input">The value entered is not proper input</string>
+    <string name="image_not_exist">The image file doesn\'t exist</string>
+    <string name="couldnt_create_file">Could not create file</string>
+    <string name="no_camera">Device doesn\'t have a camera, please manually enter the ISBN</string>
+</resources>
